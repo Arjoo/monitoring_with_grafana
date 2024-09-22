@@ -1,1 +1,12 @@
-spring.application.name=monitoring-with-grafana
+spring:
+  application:
+    name: monitoring-with-grafana
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+    health:
+      show-details: always
