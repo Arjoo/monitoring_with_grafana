@@ -14,6 +14,6 @@ public class HelloWorldController {
     @GetMapping
     public String sayHi() {
         log.info("logging hello world message");
-        return "Hello world";
+        return "Hello world !!";
     }
 }
